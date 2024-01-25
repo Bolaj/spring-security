@@ -1,10 +1,14 @@
 package com.project.springsecurity.event;
 
 import com.project.springsecurity.entity.User;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.context.ApplicationEvent;
 
 import java.time.Clock;
 
+@Getter
+@Setter
 public class RegistrationCompleteEvent extends ApplicationEvent {
 
 
